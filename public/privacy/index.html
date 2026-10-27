@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#212854" />
+    <meta name="description" content="Privacy policy for the Ambra Android app." />
+    <link rel="canonical" href="https://ambra.ong/privacy" />
+    <title>Privacy policy — Ambra</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+        background: #212854;
+        color: #f3f5fb;
+        font-family: Inter, system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      main {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 3.5rem 1.5rem 4rem;
+      }
+      h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: -0.04em;
+        margin: 0.75rem 0 0;
+      }
+      h2 {
+        font-size: 1.15rem;
+        font-weight: 500;
+        margin: 1.75rem 0 0.5rem;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        line-height: 1.6;
+      }
+      p.meta {
+        color: #9aa3c2;
+        font-size: 0.875rem;
+      }
+      ul {
+        margin: 0;
+        padding-left: 1.25rem;
+      }
+      a {
+        color: #c9d0e8;
+      }
+      .back {
+        display: inline-block;
+        margin-top: 2rem;
+        font-size: 0.875rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="/">Ambra</a>
+      <h1>Privacy policy</h1>
+      <p class="meta">Last updated: 21 October 2026</p>
+      <p>
+        This policy describes how the Ambra Android app (“Ambra”, “we”) handles personal data. Ambra
+        is a small project. This page exists so the app can be listed and so Google sign-in can be
+        offered; it is not legal advice.
+      </p>
+
+      <h2>Who we are</h2>
+      <p>
+        Ambra is operated by the developer of the app. Contact:
+        <a href="mailto:skalugerov@gmail.com">skalugerov@gmail.com</a>.
+      </p>
+
+      <h2>What the app does</h2>
+      <p>
+        Ambra lets you keep motorcycles and cars, log maintenance and upgrades, track equipment, and
+        attach invoice files. It is not a social network. Other people only see a vehicle if you
+        turn on “Visible to other owners”.
+      </p>
+
+      <h2>Data we store</h2>
+      <ul>
+        <li><strong>Account.</strong> Email address, and a display name if you set one.</li>
+        <li>
+          <strong>Google sign-in.</strong> If you choose Sign in with Google, Google shares your
+          email, name, and profile picture. We request only the openid, email, and profile scopes.
+          We do not read Gmail, Drive, or other Google services.
+        </li>
+        <li>
+          <strong>Garage data.</strong> Vehicles, service entries, equipment, settings, and invoice
+          files you upload.
+        </li>
+        <li>
+          <strong>Public vehicles.</strong> If you mark a vehicle public, signed-in users can read
+          that vehicle and its service history. Your email stays private. Invoices, notes, and
+          paperwork dates stay private.
+        </li>
+      </ul>
+
+      <h2>Where it is stored</h2>
+      <p>
+        Data is stored in a Supabase project (hosted Postgres and file storage). Access is limited
+        by row-level security so one account cannot read another account’s private rows.
+      </p>
+
+      <h2>How we use it</h2>
+      <p>
+        Only to run Ambra for you: sign you in, show your vehicles, and (if you opt in) show a
+        public vehicle to other signed-in users. We do not sell data, run ads, or use Google user
+        data for advertising.
+      </p>
+
+      <h2>Retention and deletion</h2>
+      <p>
+        Data stays until you delete it. You can delete individual vehicles, entries, equipment, and
+        invoices in the app. Settings → Delete account removes the user and all associated Ambra
+        data, including invoice files.
+      </p>
+
+      <h2>Your choices</h2>
+      <ul>
+        <li>You can use email and password instead of Google.</li>
+        <li>You can keep every vehicle private.</li>
+        <li>You can delete your account at any time in the app.</li>
+      </ul>
+
+      <a class="back" href="/">Back</a>
+    </main>
+  </body>
+</html>

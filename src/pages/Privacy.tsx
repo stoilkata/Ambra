@@ -25,8 +25,8 @@ export function Privacy() {
             Who we are
           </Typography>
           <Typography>
-            Ambra is operated by the developer of the app. Contact will be published here when a
-            public support address is set.
+            Ambra is operated by the developer of the app. Contact:{' '}
+            <Link href="mailto:skalugerov@gmail.com">skalugerov@gmail.com</Link>.
           </Typography>
 
           <Typography variant="h2" sx={{ fontSize: '1.15rem', pt: 1 }}>
